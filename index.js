@@ -42,7 +42,7 @@ async function askName() {
     playerName = answers.player_name;
   }
 
-  async function question1() {
+  async function question5() {
     const answers = await inquirer.prompt({
       name: "question_1",
       type: "list",
@@ -59,7 +59,7 @@ async function askName() {
   }
 
 
-  async function question2() {
+  async function question1() {
     const answers = await inquirer.prompt({
       name: "question_2",
       type: "list",
@@ -74,7 +74,7 @@ async function askName() {
     return handleAnswer(answers.question_2 === "Toriyama");
   }
   
-  async function question3() {
+  async function question4() {
     const answers = await inquirer.prompt({
       name: "question_3",
       type: "list",
@@ -90,7 +90,7 @@ async function askName() {
     return handleAnswer(answers.question_3 === "Russia and Vatican");
   }
   
-  async function question4() {
+  async function question2() {
     const answers = await inquirer.prompt({
       name: "question_4",
       type: "list",
@@ -108,7 +108,7 @@ async function askName() {
 
 
 
-  async function question5() {
+  async function question1() {
     const answers = await inquirer.prompt({
       name: "question_1",
       type: "list",
